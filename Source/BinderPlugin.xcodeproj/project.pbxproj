@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ABC74421C7619AD00D5B30C /* XCBuildShellScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC741F1C7619AD00D5B30C /* XCBuildShellScript.m */; };
+		6ABC74431C7619AD00D5B30C /* XCBuildShellScriptDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74211C7619AD00D5B30C /* XCBuildShellScriptDefinition.m */; };
+		6ABC74441C7619AD00D5B30C /* XCGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74231C7619AD00D5B30C /* XCGroup.m */; };
+		6ABC74451C7619AD00D5B30C /* XCTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74251C7619AD00D5B30C /* XCTarget.m */; };
+		6ABC74461C7619AD00D5B30C /* XCProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74271C7619AD00D5B30C /* XCProject.m */; };
+		6ABC74471C7619AD00D5B30C /* XCSourceFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC742A1C7619AD00D5B30C /* XCSourceFile.m */; };
+		6ABC74481C7619AD00D5B30C /* XcodeMemberType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC742C1C7619AD00D5B30C /* XcodeMemberType.m */; };
+		6ABC74491C7619AD00D5B30C /* XCXibDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC742E1C7619AD00D5B30C /* XCXibDefinition.m */; };
+		6ABC744A1C7619AD00D5B30C /* XCClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74311C7619AD00D5B30C /* XCClassDefinition.m */; };
+		6ABC744B1C7619AD00D5B30C /* XcodeSourceFileType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74331C7619AD00D5B30C /* XcodeSourceFileType.m */; };
+		6ABC744C1C7619AD00D5B30C /* XCAbstractDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74351C7619AD00D5B30C /* XCAbstractDefinition.m */; };
+		6ABC744D1C7619AD00D5B30C /* XCFileOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74371C7619AD00D5B30C /* XCFileOperationQueue.m */; };
+		6ABC744E1C7619AD00D5B30C /* XCProject+SubProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74391C7619AD00D5B30C /* XCProject+SubProject.m */; };
+		6ABC744F1C7619AD00D5B30C /* XCProjectBuildConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC743B1C7619AD00D5B30C /* XCProjectBuildConfig.m */; };
+		6ABC74501C7619AD00D5B30C /* XCFrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC743D1C7619AD00D5B30C /* XCFrameworkDefinition.m */; };
+		6ABC74511C7619AD00D5B30C /* XCSourceFileDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC743F1C7619AD00D5B30C /* XCSourceFileDefinition.m */; };
+		6ABC74521C7619AD00D5B30C /* XCSubProjectDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74411C7619AD00D5B30C /* XCSubProjectDefinition.m */; };
+		6ABC74591C761A4B00D5B30C /* XCKeyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74581C761A4B00D5B30C /* XCKeyBuilder.m */; };
+		6ABC74A41C76262800D5B30C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABC74A31C76262800D5B30C /* libz.tbd */; };
+		6ABC74B21C76268800D5B30C /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74A71C76268800D5B30C /* ioapi.c */; };
+		6ABC74B31C76268800D5B30C /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74A91C76268800D5B30C /* mztools.c */; };
+		6ABC74B41C76268800D5B30C /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74AB1C76268800D5B30C /* unzip.c */; };
+		6ABC74B51C76268800D5B30C /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74AD1C76268800D5B30C /* zip.c */; };
+		6ABC74B61C76268800D5B30C /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74B01C76268800D5B30C /* SSZipArchive.m */; };
+		6ABC74CD1C76270B00D5B30C /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74BA1C76270B00D5B30C /* aescrypt.c */; };
+		6ABC74CE1C76270B00D5B30C /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74BB1C76270B00D5B30C /* aeskey.c */; };
+		6ABC74CF1C76270B00D5B30C /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74BD1C76270B00D5B30C /* aestab.c */; };
+		6ABC74D01C76270B00D5B30C /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74C11C76270B00D5B30C /* entropy.c */; };
+		6ABC74D11C76270B00D5B30C /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74C31C76270B00D5B30C /* fileenc.c */; };
+		6ABC74D21C76270B00D5B30C /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74C51C76270B00D5B30C /* hmac.c */; };
+		6ABC74D31C76270B00D5B30C /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74C71C76270B00D5B30C /* prng.c */; };
+		6ABC74D41C76270B00D5B30C /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74C91C76270B00D5B30C /* pwd2key.c */; };
+		6ABC74D51C76270B00D5B30C /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74CB1C76270B00D5B30C /* sha1.c */; };
+		6ABC74EE1C766EF500D5B30C /* BinderPlugin+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74ED1C766EF500D5B30C /* BinderPlugin+Helpers.m */; };
+		6ABC74F11C766F9F00D5B30C /* BinderPlugin+AddBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74F01C766F9F00D5B30C /* BinderPlugin+AddBinder.m */; };
+		6ABC74F41C7670AC00D5B30C /* BinderPlugin+UpdateBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74F31C7670AC00D5B30C /* BinderPlugin+UpdateBinder.m */; };
+		6ABC74F71C77614400D5B30C /* BinderPlugin+RemoveBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC74F61C77614400D5B30C /* BinderPlugin+RemoveBinder.m */; };
+		6ACF374B1C751F7F0072B060 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACF374A1C751F7F0072B060 /* AppKit.framework */; };
+		6ACF374D1C751F7F0072B060 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACF374C1C751F7F0072B060 /* Foundation.framework */; };
+		6ACF37511C751F7F0072B060 /* BinderPlugin.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 6ACF37501C751F7F0072B060 /* BinderPlugin.xcscheme */; };
+		6ACF37541C751F7F0072B060 /* BinderPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF37531C751F7F0072B060 /* BinderPlugin.m */; };
+		6ACF37571C751F7F0072B060 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF37561C751F7F0072B060 /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6ABC741E1C7619AD00D5B30C /* XCBuildShellScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCBuildShellScript.h; sourceTree = "<group>"; };
+		6ABC741F1C7619AD00D5B30C /* XCBuildShellScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCBuildShellScript.m; sourceTree = "<group>"; };
+		6ABC74201C7619AD00D5B30C /* XCBuildShellScriptDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCBuildShellScriptDefinition.h; sourceTree = "<group>"; };
+		6ABC74211C7619AD00D5B30C /* XCBuildShellScriptDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCBuildShellScriptDefinition.m; sourceTree = "<group>"; };
+		6ABC74221C7619AD00D5B30C /* XCGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCGroup.h; sourceTree = "<group>"; };
+		6ABC74231C7619AD00D5B30C /* XCGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCGroup.m; sourceTree = "<group>"; };
+		6ABC74241C7619AD00D5B30C /* XCTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTarget.h; sourceTree = "<group>"; };
+		6ABC74251C7619AD00D5B30C /* XCTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTarget.m; sourceTree = "<group>"; };
+		6ABC74261C7619AD00D5B30C /* XCProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCProject.h; sourceTree = "<group>"; };
+		6ABC74271C7619AD00D5B30C /* XCProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCProject.m; sourceTree = "<group>"; };
+		6ABC74281C7619AD00D5B30C /* XcodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeEditor.h; sourceTree = "<group>"; };
+		6ABC74291C7619AD00D5B30C /* XCSourceFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceFile.h; sourceTree = "<group>"; };
+		6ABC742A1C7619AD00D5B30C /* XCSourceFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSourceFile.m; sourceTree = "<group>"; };
+		6ABC742B1C7619AD00D5B30C /* XcodeMemberType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeMemberType.h; sourceTree = "<group>"; };
+		6ABC742C1C7619AD00D5B30C /* XcodeMemberType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeMemberType.m; sourceTree = "<group>"; };
+		6ABC742D1C7619AD00D5B30C /* XCXibDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCXibDefinition.h; sourceTree = "<group>"; };
+		6ABC742E1C7619AD00D5B30C /* XCXibDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCXibDefinition.m; sourceTree = "<group>"; };
+		6ABC742F1C7619AD00D5B30C /* XcodeGroupMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeGroupMember.h; sourceTree = "<group>"; };
+		6ABC74301C7619AD00D5B30C /* XCClassDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCClassDefinition.h; sourceTree = "<group>"; };
+		6ABC74311C7619AD00D5B30C /* XCClassDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCClassDefinition.m; sourceTree = "<group>"; };
+		6ABC74321C7619AD00D5B30C /* XcodeSourceFileType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeSourceFileType.h; sourceTree = "<group>"; };
+		6ABC74331C7619AD00D5B30C /* XcodeSourceFileType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeSourceFileType.m; sourceTree = "<group>"; };
+		6ABC74341C7619AD00D5B30C /* XCAbstractDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAbstractDefinition.h; sourceTree = "<group>"; };
+		6ABC74351C7619AD00D5B30C /* XCAbstractDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAbstractDefinition.m; sourceTree = "<group>"; };
+		6ABC74361C7619AD00D5B30C /* XCFileOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFileOperationQueue.h; sourceTree = "<group>"; };
+		6ABC74371C7619AD00D5B30C /* XCFileOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFileOperationQueue.m; sourceTree = "<group>"; };
+		6ABC74381C7619AD00D5B30C /* XCProject+SubProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCProject+SubProject.h"; sourceTree = "<group>"; };
+		6ABC74391C7619AD00D5B30C /* XCProject+SubProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCProject+SubProject.m"; sourceTree = "<group>"; };
+		6ABC743A1C7619AD00D5B30C /* XCProjectBuildConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCProjectBuildConfig.h; sourceTree = "<group>"; };
+		6ABC743B1C7619AD00D5B30C /* XCProjectBuildConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCProjectBuildConfig.m; sourceTree = "<group>"; };
+		6ABC743C1C7619AD00D5B30C /* XCFrameworkDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFrameworkDefinition.h; sourceTree = "<group>"; };
+		6ABC743D1C7619AD00D5B30C /* XCFrameworkDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFrameworkDefinition.m; sourceTree = "<group>"; };
+		6ABC743E1C7619AD00D5B30C /* XCSourceFileDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceFileDefinition.h; sourceTree = "<group>"; };
+		6ABC743F1C7619AD00D5B30C /* XCSourceFileDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSourceFileDefinition.m; sourceTree = "<group>"; };
+		6ABC74401C7619AD00D5B30C /* XCSubProjectDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSubProjectDefinition.h; sourceTree = "<group>"; };
+		6ABC74411C7619AD00D5B30C /* XCSubProjectDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSubProjectDefinition.m; sourceTree = "<group>"; };
+		6ABC74571C761A4B00D5B30C /* XCKeyBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCKeyBuilder.h; path = Utils/XCKeyBuilder.h; sourceTree = "<group>"; };
+		6ABC74581C761A4B00D5B30C /* XCKeyBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCKeyBuilder.m; path = Utils/XCKeyBuilder.m; sourceTree = "<group>"; };
+		6ABC74A31C76262800D5B30C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6ABC74A61C76268800D5B30C /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		6ABC74A71C76268800D5B30C /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		6ABC74A81C76268800D5B30C /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		6ABC74A91C76268800D5B30C /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		6ABC74AA1C76268800D5B30C /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		6ABC74AB1C76268800D5B30C /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		6ABC74AC1C76268800D5B30C /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		6ABC74AD1C76268800D5B30C /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		6ABC74AE1C76268800D5B30C /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		6ABC74AF1C76268800D5B30C /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		6ABC74B01C76268800D5B30C /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		6ABC74B11C76268800D5B30C /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		6ABC74B81C76270B00D5B30C /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		6ABC74B91C76270B00D5B30C /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		6ABC74BA1C76270B00D5B30C /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		6ABC74BB1C76270B00D5B30C /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		6ABC74BC1C76270B00D5B30C /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		6ABC74BD1C76270B00D5B30C /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		6ABC74BE1C76270B00D5B30C /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		6ABC74BF1C76270B00D5B30C /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		6ABC74C01C76270B00D5B30C /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		6ABC74C11C76270B00D5B30C /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		6ABC74C21C76270B00D5B30C /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		6ABC74C31C76270B00D5B30C /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		6ABC74C41C76270B00D5B30C /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		6ABC74C51C76270B00D5B30C /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		6ABC74C61C76270B00D5B30C /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		6ABC74C71C76270B00D5B30C /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		6ABC74C81C76270B00D5B30C /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		6ABC74C91C76270B00D5B30C /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		6ABC74CA1C76270B00D5B30C /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		6ABC74CB1C76270B00D5B30C /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		6ABC74CC1C76270B00D5B30C /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		6ABC74D61C76271600D5B30C /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		6ABC74EC1C766EF500D5B30C /* BinderPlugin+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BinderPlugin+Helpers.h"; sourceTree = "<group>"; };
+		6ABC74ED1C766EF500D5B30C /* BinderPlugin+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BinderPlugin+Helpers.m"; sourceTree = "<group>"; };
+		6ABC74EF1C766F9F00D5B30C /* BinderPlugin+AddBinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BinderPlugin+AddBinder.h"; sourceTree = "<group>"; };
+		6ABC74F01C766F9F00D5B30C /* BinderPlugin+AddBinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BinderPlugin+AddBinder.m"; sourceTree = "<group>"; };
+		6ABC74F21C7670AC00D5B30C /* BinderPlugin+UpdateBinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BinderPlugin+UpdateBinder.h"; sourceTree = "<group>"; };
+		6ABC74F31C7670AC00D5B30C /* BinderPlugin+UpdateBinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BinderPlugin+UpdateBinder.m"; sourceTree = "<group>"; };
+		6ABC74F51C77614400D5B30C /* BinderPlugin+RemoveBinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BinderPlugin+RemoveBinder.h"; sourceTree = "<group>"; };
+		6ABC74F61C77614400D5B30C /* BinderPlugin+RemoveBinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BinderPlugin+RemoveBinder.m"; sourceTree = "<group>"; };
+		6ACF37471C751F7F0072B060 /* BinderPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinderPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACF374A1C751F7F0072B060 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		6ACF374C1C751F7F0072B060 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		6ACF37501C751F7F0072B060 /* BinderPlugin.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = BinderPlugin.xcscheme; path = BinderPlugin.xcodeproj/xcshareddata/xcschemes/BinderPlugin.xcscheme; sourceTree = SOURCE_ROOT; };
+		6ACF37521C751F7F0072B060 /* BinderPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinderPlugin.h; sourceTree = "<group>"; };
+		6ACF37531C751F7F0072B060 /* BinderPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinderPlugin.m; sourceTree = "<group>"; };
+		6ACF37551C751F7F0072B060 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		6ACF37561C751F7F0072B060 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		6ACF37581C751F7F0072B060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ACF37451C751F7F0072B060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABC74A41C76262800D5B30C /* libz.tbd in Frameworks */,
+				6ACF374B1C751F7F0072B060 /* AppKit.framework in Frameworks */,
+				6ACF374D1C751F7F0072B060 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ABC741D1C76196400D5B30C /* XCEditor */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC74561C7619D400D5B30C /* Utils */,
+				6ABC741E1C7619AD00D5B30C /* XCBuildShellScript.h */,
+				6ABC741F1C7619AD00D5B30C /* XCBuildShellScript.m */,
+				6ABC74201C7619AD00D5B30C /* XCBuildShellScriptDefinition.h */,
+				6ABC74211C7619AD00D5B30C /* XCBuildShellScriptDefinition.m */,
+				6ABC74221C7619AD00D5B30C /* XCGroup.h */,
+				6ABC74231C7619AD00D5B30C /* XCGroup.m */,
+				6ABC74241C7619AD00D5B30C /* XCTarget.h */,
+				6ABC74251C7619AD00D5B30C /* XCTarget.m */,
+				6ABC74261C7619AD00D5B30C /* XCProject.h */,
+				6ABC74271C7619AD00D5B30C /* XCProject.m */,
+				6ABC74281C7619AD00D5B30C /* XcodeEditor.h */,
+				6ABC74291C7619AD00D5B30C /* XCSourceFile.h */,
+				6ABC742A1C7619AD00D5B30C /* XCSourceFile.m */,
+				6ABC742B1C7619AD00D5B30C /* XcodeMemberType.h */,
+				6ABC742C1C7619AD00D5B30C /* XcodeMemberType.m */,
+				6ABC742D1C7619AD00D5B30C /* XCXibDefinition.h */,
+				6ABC742E1C7619AD00D5B30C /* XCXibDefinition.m */,
+				6ABC742F1C7619AD00D5B30C /* XcodeGroupMember.h */,
+				6ABC74301C7619AD00D5B30C /* XCClassDefinition.h */,
+				6ABC74311C7619AD00D5B30C /* XCClassDefinition.m */,
+				6ABC74321C7619AD00D5B30C /* XcodeSourceFileType.h */,
+				6ABC74331C7619AD00D5B30C /* XcodeSourceFileType.m */,
+				6ABC74341C7619AD00D5B30C /* XCAbstractDefinition.h */,
+				6ABC74351C7619AD00D5B30C /* XCAbstractDefinition.m */,
+				6ABC74361C7619AD00D5B30C /* XCFileOperationQueue.h */,
+				6ABC74371C7619AD00D5B30C /* XCFileOperationQueue.m */,
+				6ABC74381C7619AD00D5B30C /* XCProject+SubProject.h */,
+				6ABC74391C7619AD00D5B30C /* XCProject+SubProject.m */,
+				6ABC743A1C7619AD00D5B30C /* XCProjectBuildConfig.h */,
+				6ABC743B1C7619AD00D5B30C /* XCProjectBuildConfig.m */,
+				6ABC743C1C7619AD00D5B30C /* XCFrameworkDefinition.h */,
+				6ABC743D1C7619AD00D5B30C /* XCFrameworkDefinition.m */,
+				6ABC743E1C7619AD00D5B30C /* XCSourceFileDefinition.h */,
+				6ABC743F1C7619AD00D5B30C /* XCSourceFileDefinition.m */,
+				6ABC74401C7619AD00D5B30C /* XCSubProjectDefinition.h */,
+				6ABC74411C7619AD00D5B30C /* XCSubProjectDefinition.m */,
+			);
+			name = XCEditor;
+			sourceTree = "<group>";
+		};
+		6ABC74561C7619D400D5B30C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC74571C761A4B00D5B30C /* XCKeyBuilder.h */,
+				6ABC74581C761A4B00D5B30C /* XCKeyBuilder.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		6ABC745B1C7623C700D5B30C /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC74A21C76253500D5B30C /* ZipArchive */,
+				6ABC741D1C76196400D5B30C /* XCEditor */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		6ABC74A21C76253500D5B30C /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC74D61C76271600D5B30C /* Common.h */,
+				6ABC74B71C76270B00D5B30C /* aes */,
+				6ABC74A51C76268800D5B30C /* minizip */,
+				6ABC74AF1C76268800D5B30C /* SSZipArchive.h */,
+				6ABC74B01C76268800D5B30C /* SSZipArchive.m */,
+				6ABC74B11C76268800D5B30C /* ZipArchive.h */,
+			);
+			name = ZipArchive;
+			sourceTree = "<group>";
+		};
+		6ABC74A51C76268800D5B30C /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC74A61C76268800D5B30C /* crypt.h */,
+				6ABC74A71C76268800D5B30C /* ioapi.c */,
+				6ABC74A81C76268800D5B30C /* ioapi.h */,
+				6ABC74A91C76268800D5B30C /* mztools.c */,
+				6ABC74AA1C76268800D5B30C /* mztools.h */,
+				6ABC74AB1C76268800D5B30C /* unzip.c */,
+				6ABC74AC1C76268800D5B30C /* unzip.h */,
+				6ABC74AD1C76268800D5B30C /* zip.c */,
+				6ABC74AE1C76268800D5B30C /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		6ABC74B71C76270B00D5B30C /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC74B81C76270B00D5B30C /* aes.h */,
+				6ABC74B91C76270B00D5B30C /* aes_via_ace.h */,
+				6ABC74BA1C76270B00D5B30C /* aescrypt.c */,
+				6ABC74BB1C76270B00D5B30C /* aeskey.c */,
+				6ABC74BC1C76270B00D5B30C /* aesopt.h */,
+				6ABC74BD1C76270B00D5B30C /* aestab.c */,
+				6ABC74BE1C76270B00D5B30C /* aestab.h */,
+				6ABC74BF1C76270B00D5B30C /* brg_endian.h */,
+				6ABC74C01C76270B00D5B30C /* brg_types.h */,
+				6ABC74C11C76270B00D5B30C /* entropy.c */,
+				6ABC74C21C76270B00D5B30C /* entropy.h */,
+				6ABC74C31C76270B00D5B30C /* fileenc.c */,
+				6ABC74C41C76270B00D5B30C /* fileenc.h */,
+				6ABC74C51C76270B00D5B30C /* hmac.c */,
+				6ABC74C61C76270B00D5B30C /* hmac.h */,
+				6ABC74C71C76270B00D5B30C /* prng.c */,
+				6ABC74C81C76270B00D5B30C /* prng.h */,
+				6ABC74C91C76270B00D5B30C /* pwd2key.c */,
+				6ABC74CA1C76270B00D5B30C /* pwd2key.h */,
+				6ABC74CB1C76270B00D5B30C /* sha1.c */,
+				6ABC74CC1C76270B00D5B30C /* sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		6ABC74E61C766E2100D5B30C /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				6ACF37521C751F7F0072B060 /* BinderPlugin.h */,
+				6ACF37531C751F7F0072B060 /* BinderPlugin.m */,
+				6ABC74EC1C766EF500D5B30C /* BinderPlugin+Helpers.h */,
+				6ABC74ED1C766EF500D5B30C /* BinderPlugin+Helpers.m */,
+				6ABC74EF1C766F9F00D5B30C /* BinderPlugin+AddBinder.h */,
+				6ABC74F01C766F9F00D5B30C /* BinderPlugin+AddBinder.m */,
+				6ABC74F21C7670AC00D5B30C /* BinderPlugin+UpdateBinder.h */,
+				6ABC74F31C7670AC00D5B30C /* BinderPlugin+UpdateBinder.m */,
+				6ABC74F51C77614400D5B30C /* BinderPlugin+RemoveBinder.h */,
+				6ABC74F61C77614400D5B30C /* BinderPlugin+RemoveBinder.m */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		6ABC74E71C766E2C00D5B30C /* NSObject Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6ACF37551C751F7F0072B060 /* NSObject_Extension.h */,
+				6ACF37561C751F7F0072B060 /* NSObject_Extension.m */,
+			);
+			name = "NSObject Extension";
+			sourceTree = "<group>";
+		};
+		6ACF373E1C751F7F0072B060 = {
+			isa = PBXGroup;
+			children = (
+				6ACF374E1C751F7F0072B060 /* BinderPlugin */,
+				6ACF37491C751F7F0072B060 /* Frameworks */,
+				6ACF37481C751F7F0072B060 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ACF37481C751F7F0072B060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ACF37471C751F7F0072B060 /* BinderPlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ACF37491C751F7F0072B060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC74A31C76262800D5B30C /* libz.tbd */,
+				6ACF374A1C751F7F0072B060 /* AppKit.framework */,
+				6ACF374C1C751F7F0072B060 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ACF374E1C751F7F0072B060 /* BinderPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC745B1C7623C700D5B30C /* Libraries */,
+				6ABC74E71C766E2C00D5B30C /* NSObject Extension */,
+				6ABC74E61C766E2100D5B30C /* Plugin */,
+				6ACF37581C751F7F0072B060 /* Info.plist */,
+				6ACF374F1C751F7F0072B060 /* Supporting Files */,
+			);
+			path = BinderPlugin;
+			sourceTree = "<group>";
+		};
+		6ACF374F1C751F7F0072B060 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ACF37501C751F7F0072B060 /* BinderPlugin.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ACF37461C751F7F0072B060 /* BinderPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACF375B1C751F7F0072B060 /* Build configuration list for PBXNativeTarget "BinderPlugin" */;
+			buildPhases = (
+				6ACF37431C751F7F0072B060 /* Sources */,
+				6ACF37441C751F7F0072B060 /* Resources */,
+				6ACF37451C751F7F0072B060 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinderPlugin;
+			productName = BinderPlugin;
+			productReference = 6ACF37471C751F7F0072B060 /* BinderPlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ACF373F1C751F7F0072B060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Niklas Fahl";
+				TargetAttributes = {
+					6ACF37461C751F7F0072B060 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6ACF37421C751F7F0072B060 /* Build configuration list for PBXProject "BinderPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6ACF373E1C751F7F0072B060;
+			productRefGroup = 6ACF37481C751F7F0072B060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ACF37461C751F7F0072B060 /* BinderPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ACF37441C751F7F0072B060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACF37511C751F7F0072B060 /* BinderPlugin.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ACF37431C751F7F0072B060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABC74591C761A4B00D5B30C /* XCKeyBuilder.m in Sources */,
+				6ABC74D41C76270B00D5B30C /* pwd2key.c in Sources */,
+				6ABC74B61C76268800D5B30C /* SSZipArchive.m in Sources */,
+				6ABC74CD1C76270B00D5B30C /* aescrypt.c in Sources */,
+				6ABC74F71C77614400D5B30C /* BinderPlugin+RemoveBinder.m in Sources */,
+				6ABC74521C7619AD00D5B30C /* XCSubProjectDefinition.m in Sources */,
+				6ABC74481C7619AD00D5B30C /* XcodeMemberType.m in Sources */,
+				6ACF37541C751F7F0072B060 /* BinderPlugin.m in Sources */,
+				6ABC744B1C7619AD00D5B30C /* XcodeSourceFileType.m in Sources */,
+				6ABC74451C7619AD00D5B30C /* XCTarget.m in Sources */,
+				6ABC74B21C76268800D5B30C /* ioapi.c in Sources */,
+				6ABC74CF1C76270B00D5B30C /* aestab.c in Sources */,
+				6ABC74501C7619AD00D5B30C /* XCFrameworkDefinition.m in Sources */,
+				6ABC74EE1C766EF500D5B30C /* BinderPlugin+Helpers.m in Sources */,
+				6ABC74491C7619AD00D5B30C /* XCXibDefinition.m in Sources */,
+				6ABC74F11C766F9F00D5B30C /* BinderPlugin+AddBinder.m in Sources */,
+				6ABC74B51C76268800D5B30C /* zip.c in Sources */,
+				6ABC744E1C7619AD00D5B30C /* XCProject+SubProject.m in Sources */,
+				6ABC74D31C76270B00D5B30C /* prng.c in Sources */,
+				6ABC74421C7619AD00D5B30C /* XCBuildShellScript.m in Sources */,
+				6ABC74511C7619AD00D5B30C /* XCSourceFileDefinition.m in Sources */,
+				6ABC74D01C76270B00D5B30C /* entropy.c in Sources */,
+				6ABC74431C7619AD00D5B30C /* XCBuildShellScriptDefinition.m in Sources */,
+				6ABC74D51C76270B00D5B30C /* sha1.c in Sources */,
+				6ABC74D11C76270B00D5B30C /* fileenc.c in Sources */,
+				6ABC744A1C7619AD00D5B30C /* XCClassDefinition.m in Sources */,
+				6ABC744F1C7619AD00D5B30C /* XCProjectBuildConfig.m in Sources */,
+				6ABC744D1C7619AD00D5B30C /* XCFileOperationQueue.m in Sources */,
+				6ABC74B31C76268800D5B30C /* mztools.c in Sources */,
+				6ABC74441C7619AD00D5B30C /* XCGroup.m in Sources */,
+				6ABC74471C7619AD00D5B30C /* XCSourceFile.m in Sources */,
+				6ABC74461C7619AD00D5B30C /* XCProject.m in Sources */,
+				6ACF37571C751F7F0072B060 /* NSObject_Extension.m in Sources */,
+				6ABC74F41C7670AC00D5B30C /* BinderPlugin+UpdateBinder.m in Sources */,
+				6ABC74CE1C76270B00D5B30C /* aeskey.c in Sources */,
+				6ABC74B41C76268800D5B30C /* unzip.c in Sources */,
+				6ABC744C1C7619AD00D5B30C /* XCAbstractDefinition.m in Sources */,
+				6ABC74D21C76270B00D5B30C /* hmac.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6ACF37591C751F7F0072B060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		6ACF375A1C751F7F0072B060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		6ACF375C1C751F7F0072B060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = BinderPlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ua.highbay.BinderPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		6ACF375D1C751F7F0072B060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = BinderPlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ua.highbay.BinderPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ACF37421C751F7F0072B060 /* Build configuration list for PBXProject "BinderPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACF37591C751F7F0072B060 /* Debug */,
+				6ACF375A1C751F7F0072B060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACF375B1C751F7F0072B060 /* Build configuration list for PBXNativeTarget "BinderPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACF375C1C751F7F0072B060 /* Debug */,
+				6ACF375D1C751F7F0072B060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ACF373F1C751F7F0072B060 /* Project object */;
+}
