@@ -1,5 +1,5 @@
 # Binder Xcode Plugin
-This repository gives you access to a xcode plugin that will make it easier to use [Binder](https://www.nuget.org/packages/Binder/) within Xcode by taking over adding and removing of the Binder files.
+This repository gives you access to a xcode plugin that will make it easier to use [Binder](https://www.nuget.org/packages/Binder/) within Xcode by doing most of the work in regards to adding and removing of the Binder files for you.
 
 --- Swift only instructions, Obj-C may differ ---
 
